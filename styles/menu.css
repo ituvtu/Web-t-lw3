@@ -1,0 +1,52 @@
+.menu {
+    display: flex; /* Розміщуємо посилання в одному рядку */
+    list-style: none; /* Видаляємо маркери списку */
+    padding: 0; /* Видаляємо зовнішні відступи для списку */
+    justify-content: space-between;
+    text-align: center;
+    background-color: #008000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Контейнер <div> — необхідний для позиціонування випадаючого вмісту. */
+.dropdown {
+    display: inline-block;
+}
+
+/* Випадаючий вміст (прихований за замовчуванням) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Змінити колір випадаючих посилань при наведенні */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Змінити колір випадаючих посилань при наведенні */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Показувати випадаюче меню при наведенні */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

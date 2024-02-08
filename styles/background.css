@@ -1,0 +1,24 @@
+body {
+    background: url("../source/enter.png");
+    background-size: cover;
+    /* Розмір фону відповідає розміру вікна */
+    background-repeat: no-repeat;
+    /* Заборонити повторення фону */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../source/enter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    z-index: -1;
+}

@@ -1,0 +1,12 @@
+/* Table.css */
+
+/* Загальні стилі таблиці */
+table {border-collapse: collapse;font-family: 'Montserrat', sans-serif;background-color: green;}
+
+table, th, td {border: 1px solid rgb(0, 0, 0);}
+
+/* Стилі парних рядків */
+table tr:nth-child(even) {background-color: lemonchiffon;}
+
+/* Стилі непарних рядків */
+table tr:nth-child(odd) {background-color: lightblue;}

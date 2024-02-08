@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Замовити квитки</title>
+    <link rel="stylesheet" href="../styles/all.css">
+    <script src="../script/ticket-forms.js"></script>
+    <script src="../script/transition.js"></script>
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Замовлення квитків</h1>
+
+        <div class="menu">
+            <a href="index.html">Головна</a>
+            <a href="tickets.html">Замовити квитки</a>
+            <a href="gallery.html">Зображення</a>
+            <a href="oceanarium.html">Океанаріум</a>
+            <a href="support.html">Допомога зоопарку</a>
+            <a href="guardians.html">Опікуни</a>
+            <a href="blog.html">Блог</a>
+        </div>
+
+        <p>Для того, щоб замовити квитки в наш зоопарк, виконайте такі дії:</p>
+
+        <ol>
+            <li>Виберіть кількість квитків, які ви хочете замовити.</li>
+            <li>Оберіть дату та час вашого візиту в зоопарк.
+                <ul>
+                    <li>Подивіться розклад і виберіть час</li>
+                    <li>Зателефонуйте якщо залишились якісь питання</li>
+                </ul>
+            </li>
+            <li>Заповніть необхідну інформацію у формі замовлення.</li>
+            <li>Натисніть кнопку "Відправити" для підтвердження замовлення.</li>
+            <li>Очікуйте на підтвердження та інструкції щодо оплати та відвідування зоопарку.</li>
+        </ol>
+
+        <h2 id="form-heading">Форма замовлення квитків</h2>
+        <form action="#" method="post" class="form">
+            <label for="quantity">Кількість квитків:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+            <label for="visit-date">Дата візиту:</label>
+            <input type="date" id="visit-date" name="visit-date" required min="2023-10-10"><br>
+
+            <label for="visit-time">Час візиту:</label>
+            <input type="time" id="visit-time" name="visit-time" required min="07:00" max="19:00" step="900"><br>
+
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Ваша адреса електронної пошти:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <button type="submit">Відправити</button>
+        </form>
+
+        <p>Дякуємо, що ви відвідали наш зоопарк!</p>
+    
+    </div>
+</body>
+
+</html>

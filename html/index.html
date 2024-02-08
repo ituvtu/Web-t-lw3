@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="../styles/image.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/all.css">
+    <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../styles/countdown.css">
+    <link rel="stylesheet" href="../styles/background.css"></link>
+    <script src="../script/slider.js"></script>
+    <script src="../script/transition.js"></script>
+    <script src="../script/countdown.js"></script>
+    <script src="../script/menu.js"></script>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>Ласкаво просимо в наш зоопарк</h1>
+                <img src="../source/zoo.png" alt="Іконка зоопарку" width="128px" height="128px">
+            </div>
+
+            <div class="menu" id="menu">
+              <a href="index.html">Головна</a>
+              <div class="dropdown">
+                <a href="tickets.html" id="ticket">Квитки</a>
+                <div id="list" class="dropdown-content">
+                  <a href="guardians.html">Опікуни</a>
+                  <a href="support.html">Допомога</a>
+                </div> 
+              </div>
+              <a href="gallery.html">Зображення</a>
+              <a href="oceanarium.html">Океанаріум</a>
+              <a href="support.html">Допомога зоопарку</a>
+              <a href="guardians.html">Опікуни</a>
+              <a href="blog.html">Блог</a>
+            </div>
+        </div>
+    
+        <div class="image-container">
+
+            <div class="slider">
+                <div class="gallery">
+                <ul>
+                    <li>
+                    <img src="../source/slider-image-1.png" alt="Фото 1" width="128" height="128" class="gallery-image">
+                    </li>
+                    <li>
+                    <img src="../source/slider-image-2.png" alt="Фото 2" width="128" height="128"class="gallery-image" >
+                    </li>
+                    <li>
+                    <img src="../source/slider-image-3.png" alt="Фото 3" width="128" height="128" class="gallery-image">
+                    </li>
+                    <li>
+                    <img src="../source/slider-image-4.png" alt="Фото 4" width="128" height="128" class="gallery-image">
+                    </li>
+                    <li>
+                    <img src="../source/slider-image-5.png"  alt="Фото 5" width="128" height="128" class="gallery-image">
+                    </li>
+                    <li>
+                    <img src="../source/slider-image-6.png"  alt="Фото 6" width="128" height="128"class="gallery-image">
+                    </li>
+                </ul>
+                </div>
+                <button class="prev"><</button>
+                <button class="next">></button>
+            </div>
+        </div>
+    </div>
+    <div class="countdown-container">
+        <div id="countdown">
+          <span id="days">00</span> днів
+          <span id="hours">00</span> годин
+          <span id="minutes">00</span> хвилин
+          <span id="seconds">00</span> секунд
+          до Нового року!
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="image-viewer" id="imageViewer">
+            <img src="" alt="Велике зображення" id="largeImage">
+            <button id="closeButton" class="close-button">✕</button>
+        </div>
+    </div>
+    <script src="../script/gallery.js"></script>
+</body>
+</html>

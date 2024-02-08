@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Реєстрація</title>
+    <script src="../script/validation.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/all.css">
+    <script src="../script/transition.js"></script>
+</head>
+<body id="body">
+    <h1>Реєстрація на розсилку</h1>
+    <div class="container">
+    <div class="menu">
+        <a href="index.html">Головна</a>
+        <a href="tickets.html">Замовити квитки</a>
+        <a href="gallery.html">Зображення</a>
+        <a href="oceanarium.html">Океанаріум</a>
+        <a href="support.html">Допомога зоопарку</a>
+        <a href="guardians.html">Опікуни</a>
+        <a href="blog.html">Блог</a>
+    </div>
+    <form id="emailForm">
+        <label for="email">Електронна адреса *у форматі example@ex.exmpl:</label>
+        <input type="text" id="email">
+        <button type="button" id="validateEmail">Валідація e-mail, JS</button>
+    </form>
+
+    <form id="phoneForm">
+        <label for="phone">Номер телефону *у форматі +3800000000000:</label>
+        <input type="text" id="phone">
+        <button type="button" id ="validatePhone">Валідація телефон, JS</button>
+    </form>
+
+    <button type="button" id="submitForm">Відправити</button>
+
+   </div>
+</body>
+</html>

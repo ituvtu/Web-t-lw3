@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Океанаріум</title>
+    <link rel="stylesheet" href="../styles/all.css">
+    <script src="../script/transition.js"></script>
+</head>
+
+<body id="body">
+    <div class="container">
+        <h1>Ласкаво просимо в наш Океанаріум!</h1>
+
+        <div class="menu">
+            <a href="index.html">Головна</a>
+            <a href="tickets.html">Замовити квитки</a>
+            <a href="gallery.html">Зображення</a>
+            <a href="oceanarium.html">Океанаріум</a>
+            <a href="support.html">Допомога зоопарку</a>
+            <a href="guardians.html">Опікуни</a>
+            <a href="blog.html">Блог</a>
+        </div>
+
+
+
+        <h2>Підписка на новини</h2>
+        <form action="subscribe.php" method="post" class="form">
+            <label for="email">Ваша електронна адреса:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Підписатися">
+        </form>
+
+        <h2>Наші експонати</h2>
+        <p>Океанаріум має широкий вибір екзотичних риб, морських черепах, коралових рифів та інших морських чудес. Ми забезпечимо вам можливість ближче познайомитися з цими дивовижними створіннями.</p>
+
+        <h2>Години роботи</h2>
+        <p>Океанаріум працює за таким графіком:</p>
+        <table class="table">
+            <tr>
+                <th>Пн-Пт</th>
+                <th>Сб-Нд</th>
+            </tr>
+            <tr>
+                <td>10:00 - 18:00</td>
+                <td>10:00 - 19:00</td>
+            </tr>
+        </table>
+
+        <h2>Ваш відгук</h2>
+        <form action="feedback.php" method="post" class="form">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="feedback">Ваш відгук:</label>
+            <textarea id="feedback" name="feedback" rows="1" required></textarea>
+            <input type="submit" value="Відправити">
+        </form>
+
+        <h2>Фото з середини океанаріуму</h2>
+        <div class="image-container">
+
+
+            <img src="../source/oceanarium1.png" alt="Океанаріум1">
+            <img src="../source/oceanarium2.png" alt="Океанаріум2">
+            <img src="../source/oceanarium3.png" alt="Океанаріум3">
+            <img src="../source/oceanarium4.png" alt="Океанаріум4">
+        </div>
+    </div>
+</body>
+
+</html>

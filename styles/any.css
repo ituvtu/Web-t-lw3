@@ -1,0 +1,11 @@
+.new-impressions {
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  top: 50%; /* Розташувати по вертикалі в середині вікна */
+  left: 50%; /* Розташувати по горизонталі в середині вікна */
+  transform: translate(-50%, -50%); /* Вирівнювання тексту точно по центру */
+}
+.new-impressions p {color: white; /* Білий колір тексту */font-size: 40px; /* Розмір тексту */}
+.yellow-text {color: yellow; /* Жовтий колір для "нові враження" */}
+

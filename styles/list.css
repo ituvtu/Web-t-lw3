@@ -1,0 +1,8 @@
+/* Виправлення маргінів для першого та останнього елементів списку */
+ul li:first-child, ol li:first-child {margin-top: 0;}
+ul li:last-child, ol li:last-child {margin-bottom: 0;}
+::marker{color: darkcyan;font-size: 1.2em;}
+ul{margin: 0;} 
+ul li {font-family: 'Montserrat', sans-serif;font-size: 16px;font-weight: 400;margin-bottom: 10px;}
+ol {margin: 0;}
+ol li {font-family: 'Montserrat', sans-serif;font-size: 16px;font-weight: 400;margin-bottom: 10px;}

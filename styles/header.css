@@ -1,0 +1,20 @@
+.header {
+    background-color: #008000; /* Зелений фон */
+    color: white; /* Білий колір тексту */
+    padding: 20px; /* Додатковий внутрішній відступ для створення простору навколо контенту в заголовку */
+}
+
+.header-content {
+    background-color: lemonchiffon;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    color: #008000;
+}
+
+.header-content img {
+    display: block;
+    margin: 0 auto;
+}

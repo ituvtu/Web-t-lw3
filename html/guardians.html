@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Опікуни</title>
+    <link rel="stylesheet" href="../styles/all.css">
+    <script src="../script/tables.js"></script>
+    <noscript>
+        Ввімкніть JavaScript.
+        <style>
+            .table tr:hover {
+                background-color: red; /* Фоновий колір при наведенні за відсутності JavaScript */
+            }
+        </style>
+    </noscript>
+    <script src="../script/transition.js"></script>
+</head>
+
+<body id="body">
+    <div class="container">
+        <h1>Опікуни</h1>
+
+        <div class="menu">
+            <a href="index.html">Головна</a>
+            <a href="tickets.html">Замовити квитки</a>
+            <a href="gallery.html">Зображення</a>
+            <a href="oceanarium.html">Океанаріум</a>
+            <a href="support.html">Допомога зоопарку</a>
+            <a href="guardians.html">Опікуни</a>
+            <a href="blog.html">Блог</a>
+        </div>
+        <h2>Наші опікуни</h2>
+
+        <table class="table">
+            <tr>
+                <th>Прізвище та ім'я опікуна</th>
+                <th>Телефон</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Іванова Марія</td>
+                <td>+1234567890</td>
+                <td>maria@example.com</td>
+            </tr>
+            <tr>
+                <td>Петров Петро</td>
+                <td>+9876543210</td>
+                <td>petro@example.com</td>
+            </tr>
+            <tr>
+                <td>Сидоренко Ольга</td>
+                <td rowspan="2">+1112223333</td>
+                <td rowspan="2">olga@example.com</td>
+            </tr>
+            <tr>
+                <td>Учні гімназії №55</td>
+            </tr>
+        </table>
+        <div class="image-container">
+            <img src="../source/guardians1.png" alt="Опікуни тварин">
+            <img src="../source/guardians2.png" alt="Опікуни тварин">
+            <img src="../source/guardians3.png" alt="Опікуни тварин">
+            <img src="../source/guardians4.png" alt="Опікуни тварин">
+            <img src="../source/guardians5.png" alt="Опікуни тварин">
+            <img src="../source/guardians6.png" alt="Опікуни тварин">
+        </div>
+    </div>
+</body>
+
+</html>

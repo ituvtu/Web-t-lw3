@@ -1,0 +1,56 @@
+/* Стилі для контейнера слайдера */
+.slider {
+    width: 500px; /* Задайте ширину контейнера відповідно до ваших потреб */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Стилі для галереї слайдера */
+  .gallery {
+    width: 100%; /* Ширина галереї відповідно до контейнера */
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: margin-left 250ms;
+  }
+  
+  .gallery li {
+    flex: 0 0 auto;
+  }
+  
+  .gallery img {
+    display: block;
+    width: 128px; /* Ширина зображення */
+    height: 128px; /* Висота зображення */
+  }
+  
+  .prev, .next {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    padding: 10px 15px;
+    margin: 15px;
+    cursor: pointer;
+    position: absolute; /* Додаємо абсолютну позицію */
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #ccc;
+  }
+  
+  .prev {
+    left: 10px; /* Позиція лівої стрілочки */
+  }
+  
+  .next {
+    right: 10px; /* Позиція правої стрілочки */
+  }

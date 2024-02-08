@@ -1,0 +1,10 @@
+.countdown-container {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    max-width: 400px; /* Задайте бажану максимальну ширину */
+    margin: 0 auto; /* Вирівнюємо по центру горизонтально */
+    padding: 20px; /* Додайте бажаний внутрішній відступ */
+    margin-top: 70px;
+}
